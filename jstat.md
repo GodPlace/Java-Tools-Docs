@@ -4,9 +4,9 @@ jstat 用于监视 Java 虚拟机(JVM)的统计数据。这个命令是实验性
 
 ## 简介
 
-**jstat** <*一般选项* | *输出选项*> <*vmid*> <*时间间隔*> <*count*>
+`jstat <一般选项 | 输出选项> <vmid> <时间间隔> <count>`
 
-jstat -<option> [-t] [-h<lines>] <vmid> [<interval> [<count>]]
+`jstat -<option> [-t] [-h<lines>] <vmid> [<interval> [<count>]]`
 
 ***一般选项***
 
